@@ -74,6 +74,11 @@ def give_bpm(averaged, time_bw_fram):
     return bpm
 
 
+@app.route('/test')
+def test():
+    return "HELLO YAC"
+
+
 @app.route('/api', methods=['GET'])
 def get_beats_per_min():
 
@@ -181,4 +186,4 @@ def get_beats_per_min():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+    app.run()
