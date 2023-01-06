@@ -1,6 +1,6 @@
 Flask
 numpy
-scip
+scip==1.6
 gunicorn
 cryptography
 Jinja2
